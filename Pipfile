@@ -8,6 +8,8 @@ fastapi = "*"
 uvicorn = "*"
 sentence-transformers = "*"
 python-dotenv = "*"
+motor = "*"
+requests = "*"
 
 [dev-packages]
 

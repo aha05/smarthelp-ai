@@ -1,5 +1,6 @@
+from app.routes import ask
 from fastapi import FastAPI
-from app.routes import faq, ask
+from app.routes import faq
 
 app = FastAPI(title="SmartHelp AI - MongoDB Edition")
 

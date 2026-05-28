@@ -5,6 +5,7 @@ def build_prompt(question: str, faqs: list) -> str:
         context += f"Q: {faq['question']}\nA: {faq['answer']}\n\n"
 
     prompt = f"""
+This is SmartHelp AI – Offline FAQ Helpdesk Assistant and
 You are a professional customer support assistant.
 
 Use ONLY the context below to answer.
